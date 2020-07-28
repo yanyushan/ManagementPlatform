@@ -87,7 +87,7 @@ class App extends Component {
       let rowData = this.state.list;
       for(let i in rowData){
         let unit = rowData[i];
-        if(unit.id == item.id){
+        if(unit.id === item.id){
           console.log("delte")
           delete rowData[i];
         }
